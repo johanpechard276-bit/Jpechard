@@ -1,0 +1,175 @@
+/* ------------------------------- */
+/*            GLOBAL               */
+/* ------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #0d1117; /* fond nuit */
+    color: #e6e6e6;
+    line-height: 1.6;
+}
+
+/* ------------------------------- */
+/*            HEADER               */
+/* ------------------------------- */
+
+header {
+    background: rgba(13, 17, 23, 0.85);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid #1f242d;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+header .container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header .logo img {
+    width: 40px;
+    height: 40px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+header nav a {
+    color: #e6e6e6;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+header nav a:hover {
+    color: #58a6ff;
+}
+
+/* ------------------------------- */
+/*            SECTIONS             */
+/* ------------------------------- */
+
+section {
+    padding: 100px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: #fff;
+    border-left: 5px solid #58a6ff;
+    padding-left: 10px;
+}
+
+/* ------------------------------- */
+/*         SECTION ACCUEIL         */
+/* ------------------------------- */
+
+#accueil {
+    text-align: center;
+    padding-top: 140px;
+}
+
+#accueil h1 {
+    font-size: 3em;
+    color: #fff;
+}
+
+#accueil p {
+    margin-top: 15px;
+    font-size: 1.2em;
+    color: #c9d1d9;
+}
+
+/* ------------------------------- */
+/*         BIO / PRESENTATION      */
+/* ------------------------------- */
+
+.bio {
+    background: #11161f;
+    border: 1px solid #1f2937;
+    padding: 25px;
+    border-radius: 10px;
+    color: #d1d5db;
+    font-size: 1.1em;
+}
+
+/* ------------------------------- */
+/*            COMPETENCES          */
+/* ------------------------------- */
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.skill-card {
+    background: #11161f;
+    border: 1px solid #1f2937;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.skill-card:hover {
+    border-color: #58a6ff;
+    transform: translateY(-5px);
+}
+
+/* ------------------------------- */
+/*            PROJETS              */
+/* ------------------------------- */
+
+.project {
+    background: #11161f;
+    border: 1px solid #1f2937;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.project:hover {
+    border-color: #58a6ff;
+}
+
+/* ------------------------------- */
+/*         EXPERIENCES PRO         */
+/* ------------------------------- */
+
+.experience {
+    background: #11161f;
+    border: 1px solid #1f2937;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* -----------------*
